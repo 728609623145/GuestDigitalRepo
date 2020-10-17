@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "835732804457",
+    "firebase_url": "https://guestdigital-a27b2.firebaseio.com",
+    "project_id": "guestdigital-a27b2",
+    "storage_bucket": "guestdigital-a27b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835732804457:android:556b27d3c860be1b1263f8",
+        "android_client_info": {
+          "package_name": "com.example.guestdigital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835732804457-lanfldihc9sgng5i0nple9n89cmvcuao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC9fxFVNSUVlvd_CxrFg566r1JjvgSyYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835732804457-lanfldihc9sgng5i0nple9n89cmvcuao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

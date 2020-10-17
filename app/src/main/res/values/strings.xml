@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">GuestDigital</string>
+    <string name="action_settings">Settings</string>
+    <string name="class_guest_list">GuestList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--Custom Strings-->
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="to">To</string>
+    <string name="hello_world">Hello World</string>
+    <string name="new_guest_form">NEW GUEST FORM</string>
+    <string name="fill_the_form">Fill The Form </string>
+    <string name="first_name">First Name *</string>
+    <string name="second_name">Second Name *</string>
+    <string name="last_name">Last Name *</string>
+    <string name="address">Address *</string>
+    <string name="phone">Phone Number *</string>
+    <string name="Email">Email</string>
+    <string name="comment">Comment *</string>
+    <string name="picture">Picture</string>
+    <string name="date_stamp">Date Stamp</string>
+    <string name="submit">Submit</string>
+    <string name="action_gallery">Gallery</string>
+    <string name="action_capture">Capture</string>
+    <string name="action_crop">Cropped</string>
+    <string name="action_search">Type to Search...</string>
+    <!--    Guest result no star-->
+    <string name="first_name_noStar">First Name:</string>
+    <string name="second_name_noStar">Second Name:</string>
+    <string name="last_name_noStar">Last Name:</string>
+    <string name="address_noStar">Address:</string>
+    <string name="phone_noStar">Phone Number:</string>
+    <string name="Email_noStar">Email:</string>
+    <string name="comment_noStar">Comment</string>
+
+    <!--View Guest results strings -->
+    <string name="fullname">Fullname:</string>
+    <string name="gender">Gender:</string>
+    <string name="date_of_birth">Date of Birth:</string>
+    <string name="doc_type">Document Type:</string>
+    <string name="serial_number">Serial Number:</string>
+    <string name="date_of_issue">Date of Issue:</string>
+    <string name="nationality">Country Code:</string>
+    <string name="personal_id">Personal ID Number:</string>
+    <!--Visitor Additional Info-->
+    <string name="visit_oriented_info"><u>Visitor Additional Information</u></string>
+    <string name="enter_email_address">Email Address:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="date_of_visit">Date of Visit:</string>
+    <string name="time_of_visit">Time of Visit:</string>
+    <string name="type_of_visit">Type of Visit:</string>
+    <string name="visit_purpose">Visit Purpose:</string>
+    <string name="enter_email">Enter Email *</string>
+    <string name="enter_visit_reason">Enter Visit Reason</string>
+    <string name="enter_phone_number">Enter phone number</string>
+
+</resources>

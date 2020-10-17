@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrl_newGuest"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_visitor"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:contentDescription="@string/todo"
+            android:background="@color/light_gray" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/first_name_noStar"
+            android:hint="@string/first_name_noStar"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/second_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_secondName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/second_name_noStar"
+            android:hint="@string/second_name_noStar"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/last_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_lastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:autofillHints="@string/last_name"
+            android:hint="@string/last_name_noStar"
+            android:inputType="text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:autofillHints="@string/address_noStar"
+            android:hint="@string/address_noStar"
+            android:inputType="text|textPostalAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/phone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_phoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:autofillHints="@string/phone_noStar"
+            android:hint="@string/phone_noStar"
+            android:inputType="number|text|phone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:autofillHints="@string/Email"
+            android:hint="@string/Email"
+            android:inputType="textWebEmailAddress|text|textEmailAddress"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="@string/comment"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/dark_violet" />
+
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:autofillHints="@string/comment"
+            android:ems="10"
+            android:hint="@string/comment_noStar"
+            android:inputType="textMultiLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="@string/date_of_visit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/dark_violet"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Tv_DateOfVisit"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/output_field"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="@string/time_of_visit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/dark_violet"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Tv_TimeOfVisit"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/output_field"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:text="@string/date_stamp"-->
+        <!--            android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+        <!--            android:textColor="@color/dark_violet" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_dateStamp1"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="4dp"-->
+        <!--            android:inputType="datetime"-->
+        <!--            android:text="@string/date_stamp"-->
+        <!--            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />-->
+
+        <Button
+            android:id="@+id/btn_submitInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/button"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/first_name_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rFirstName"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/second_name_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rSecondName"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/last_name_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rLastName"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/address_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rAddress"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/phone_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rPhoneNum"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/Email_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rEmail"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/output_field"
+                android:maxLines="3"
+                android:scrollbars="horizontal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:gravity="center"
+                android:text="@string/comment_noStar"
+                android:textColor="@color/dark_violet"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Tv_rComment"
+                android:layout_width="247dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:maxEms="10"
+                android:background="@drawable/output_field"
+                android:scrollbars="horizontal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="@string/date_of_visit"
+                    android:textColor="@color/dark_violet"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Tv_rDateOfVisit"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/output_field"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:text="@string/time_of_visit"
+                    android:textColor="@color/dark_violet"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Tv_rTimeOfVisit"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/output_field"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FF00FF" />
+
+
+</androidx.cardview.widget.CardView>
